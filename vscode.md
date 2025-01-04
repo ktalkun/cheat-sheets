@@ -10,9 +10,13 @@
 
 | Shortcut                         | Action                    |
 | -------------------------------- | ------------------------- |
-| `Ctrl + Shift + E`               | Open explorer             |
+| `Ctrl + Shift + E`               | Open Explorer             |
 | `Ctrl + Shift + F`               | Open search in project    |
 | `Ctrl + Shift + G`               | Open Git                  |
+| `Ctrl + Shift + D`               | Open Run and Debug        |
+| `Ctrl + Shift + X`               | Open Extensions           |
+| `Ctrl + Shift + M`               | Open Problems             |
+| `Ctrl + K, Ctrl + S`             | Open shortcuts            |
 | ``Ctrl + ` ``                    | Open terminal             |
 | ``Ctrl + Shift + ` ``            | Open new terminal         |
 | `Ctrl + ,`                       | Open settnigs             |
@@ -46,5 +50,10 @@
 # Settigns
 
 ```json
-
+{
+    "files.autoSave": "afterDelay",
+    "workbench.editor.showTabs": "single",
+    "git.autofetch": true,
+    "git.allowForcePush": true
+}
 ```
